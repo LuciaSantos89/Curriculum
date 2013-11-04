@@ -1,0 +1,81 @@
+#wrapper {
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	font-family:  "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header {
+	position: fixed;
+	display: block;
+	width: 1000px;
+	height: 100px;
+	top: 0;
+	background: #7D923A;
+	z-index: 1;
+
+}
+
+aside {
+	position: fixed;
+	width: 300px;
+	height: 100%;
+	top: 100px;
+	background: #7D923A;
+
+}
+
+section {
+	position: relative;
+	float: right;
+	width: 700px;
+	top: 90px;
+	left: 0px;
+	border: solid 1px #5A7504;
+	background: #F6F29C;
+}
+article {
+	margin: 15px;
+}
+
+h1 {
+	font-size: 45px;
+	color: #EEEEEE;
+	vertical-align: middle;
+	padding-left: 100px;
+
+
+}
+
+.titulo {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	background: #9A953D;
+	padding-left: 10px;
+}
+
+#foto {
+	display: block;
+	float: right;
+	width: 200px;
+	height: 245px;
+	margin: 15px;
+	border: 3px #5A7504 solid;
+}
+
+#social{
+	clear: both;
+	display: block;
+	float: right;
+}
+
+#social article{
+	display: block;
+	float: right;
+}
+
+#social a img{
+	width: 32px;
+	height: 32px;
+}
